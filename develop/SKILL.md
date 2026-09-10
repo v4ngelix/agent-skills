@@ -9,6 +9,8 @@ Follow these steps in order. Do not skip steps or reorder them.
 - Read any specification, issue, or description the user has provided.
 - Read related files and documents added to the context.
 - If anything is ambiguous — requirements, scope, expected behavior, edge cases — ask the user before proceeding. Do not guess.
+- Interview the user to come up with the best approach and plan.
+- Criticize user ideas.
 
 ## 2. Explore the codebase
 
@@ -19,7 +21,7 @@ Follow these steps in order. Do not skip steps or reorder them.
 ## 3. Plan
 
 - Prefer the simplest design that fits existing conventions; call out any place the plan trades simplicity for flexibility.
-- Write a short implementation plan (in your response, not a file).
+- Write a short implementation plan "PLAN.md". If the project has a docs directory, add it there, if not to the root of the project.
 - Identify which files will change and why.
 - Flag any risks or trade-offs.
 - Get explicit user sign-off before writing any code.
